@@ -1,3 +1,26 @@
 .App {
   text-align: center;
 }
+
+.App nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightblue;
+}
+
+nav a {
+  color: rgb(83, 190, 226);
+  background: white;
+  border-radius: 8px;
+  padding: 3px 7px;
+  border: 1px solid blue
+}
+
+.smurfNav a {
+  color: blue;
+}
+
+.smurfNav {
+  background: white;
+}

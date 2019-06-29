@@ -33,6 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav>
+          <h1>Welcome!</h1>
           <NavLink to='/' activeClassName='clicked'>Smurf List</NavLink>
           <NavLink to='/smurf-form' activeClassName='clicked'>Add to Smurf List</NavLink>
         </nav>
