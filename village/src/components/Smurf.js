@@ -8,7 +8,6 @@ const Smurf = props => {
       <strong>{props.height} tall</strong>
       <p>{props.age} smurf years old</p>
       <nav className='smurfNav'>
-        <Link to='/'>Smurfs</Link>
         <Link to='/smurf-form'>Add a Smurf</Link>
       </nav>
     </div>
