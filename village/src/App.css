@@ -9,18 +9,55 @@
   background: lightblue;
 }
 
-nav a {
+.App nav a {
   color: rgb(83, 190, 226);
   background: white;
   border-radius: 8px;
   padding: 3px 7px;
-  border: 1px solid blue
+  border: 1px solid blue;
+  text-decoration: none;
 }
 
-.smurfNav a {
-  color: blue;
+#smurfNav a {
+  color: white;
+  background: lightblue;
 }
 
-.smurfNav {
+#smurfNav {
   background: white;
+  margin: 0;
+}
+
+.Smurfs ul {
+  padding-left: 0;
+}
+
+.SmurfForm {
+  padding: 20px 0;
+}
+
+.SmurfForm form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  margin: 30px;
+}
+
+.SmurfForm button {
+  color: white;
+  background: lightblue;
+  border-radius: 8px;
+  padding: 3px 7px;
+  border: 1px solid blue;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.formButtons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
 }
