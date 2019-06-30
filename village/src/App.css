@@ -49,6 +49,7 @@
   background: lightblue;
   border: 2px solid blue;
   border-radius: 8px;
+  margin: 20px 20px;
 }
 .Smurfs ul a:hover {
   background: rgb(83, 190, 226);
@@ -57,7 +58,6 @@
 
 .smurfCard {
   padding: 10px;
-
 }
 
 .SmurfForm {
