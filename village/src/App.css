@@ -9,7 +9,7 @@
   background: lightblue;
 }
 
-.App nav a {
+.navLink {
   color: rgb(83, 190, 226);
   background: white;
   border-radius: 8px;
@@ -17,10 +17,18 @@
   border: 1px solid blue;
   text-decoration: none;
 }
+.clicked {
+  background: lightgray;
+  color: white;
+}
 
 #smurfNav a {
   color: white;
   background: lightblue;
+  border-radius: 8px;
+  padding: 3px 7px;
+  border: 1px solid blue;
+  text-decoration: none;
 }
 
 #smurfNav {
